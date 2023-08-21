@@ -1,0 +1,337 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .film_block {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .collections_card {
+        width: 280px;
+    }
+}
+
+@media(max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .collections_block {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .collections_card {
+        width: 51%;
+    }
+
+    .series_text {
+        margin: 15px 0;
+        font-size: 14px;
+    }
+
+    .series_title {
+        font-size: 27px;
+    }
+
+    .section_link {
+        font-size: 14px;
+        padding: 13px 40px;
+    }
+
+    .series_item_title {
+        font-size: 17px;
+        margin-top: 6px;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .nav_content {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .nav_list {
+        justify-content: center;
+        width: 100%;
+        margin-top: 14px;
+    }
+
+    .nav_span {
+        display: none;
+    }
+
+    .nav_link::after {
+        margin-top: 20px;
+    }
+
+    .kong_content-title {
+        font-size: 47px;
+        line-height: 20px;
+    }
+
+    .kong_content-text {
+        margin: 30px 0;
+    }
+
+    .kong {
+        height: 400px;
+    }
+
+    .film_card img {
+        width: 230px;
+    }
+
+    .film_items {
+        padding: 20px 15px 0;
+    }
+
+    .film_title {
+        margin-top: 18px;
+    }
+
+    .film_text {
+        text-align: center;
+    }
+
+    .collections_card {
+        width: 80%;
+    }
+
+    .collections_card img {
+        width: 100%;
+    }
+
+    .series_card:nth-of-type(3) {
+        grid-column: 3/5;
+    }
+
+    .series_card:nth-of-type(4) {
+        grid-column: 3/5;
+    }
+
+    .series_card:nth-of-type(5) {
+        grid-column: 1/3;
+    }
+
+    .series_card:nth-of-type(6) {
+        grid-column: 3/5;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .kong_content-title {
+        font-size: 35px;
+    }
+
+    .film_block {
+        justify-content: center;
+    }
+
+    .widow_img {
+        width: 400px;
+    }
+
+    .span::after,
+    .span::before {
+        width: 17px;
+        height: 20px;
+    }
+
+    .series_text {
+        line-height: 17px;
+    }
+}
+
+
+@media(max-width: 450px) {
+    .nav_logo img {
+        height: 32px;
+    }
+
+    .header_films {
+        padding: 10px 0;
+    }
+
+    .film {
+        padding-bottom: 60px;
+    }
+
+    .section_title {
+        font-size: 23px;
+        line-height: 23px;
+    }
+
+    .film_block {
+        gap: 30px;
+    }
+
+    .rocketa {
+        font-size: 32px;
+    }
+
+    .widow_img {
+        width: 300px;
+    }
+
+    .widow_text {
+        margin: 30px 0;
+        line-height: 23px;
+    }
+
+    .widow {
+        padding: 30px 0;
+    }
+
+    .span::after,
+    .span::before {
+        width: 15px;
+        height: 18px;
+    }
+
+    .series_card:nth-of-type(1) {
+        height: 400px;
+    }
+
+    .series_item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_left,
+    .footer_content {
+        flex-direction: column;
+    }
+
+    .footer_left,
+    .footer_content {
+        gap: 30px;
+    }
+}
+
+@media(max-width: 400px) {
+    .icon_film::before {
+        font-size: 35px;
+    }
+
+    .header_text {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .header_films {
+        padding: 7px 0;
+    }
+
+    .nav_logo img {
+        height: 29px;
+    }
+
+    .nav_list {
+        gap: 15px;
+    }
+
+    .kong_content-title {
+        font-size: 25px;
+    }
+
+    .kong_content-text {
+        margin: 20px 0;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .section_link {
+        font-size: 13px;
+        padding: 13px 28px;
+    }
+
+    .fa-play::before {
+        font-size: 21px;
+        left: 44%;
+        top: 57%;
+    }
+
+    .fa-play::after {
+        font-size: 35px;
+    }
+
+    .film_title {
+        font-size: 19px;
+        line-height: 15px;
+    }
+
+    .film_text {
+        font-size: 12px;
+        width: 190px;
+    }
+
+    .film_card img {
+        width: 200px;
+        height: 320px;
+    }
+
+    .widow_img {
+        width: 250px;
+    }
+
+    .widow_text {
+        line-height: 20px;
+        font-size: 15px;
+        margin: 25px 0;
+    }
+
+    .widow {
+        background: linear-gradient(90deg, #def7ff 0%, #f4fcff 15%, rgba(255, 255, 255, 0) 100%);
+    }
+
+    .collections {
+        padding: 10px;
+    }
+
+    .span::after,
+    .span::before {
+        width: 13px;
+        height: 15px;
+    }
+
+    .collections_title {
+        font-size: 15px;
+        margin-top: 8px;
+    }
+
+    .series_text {
+        margin: 10px 0;
+        line-height: 16px;
+        font-size: 12px;
+    }
+
+    .footer_title {
+        font-size: 14px;
+    }
+
+    .images_footer {
+        width: 80px;
+    }
+
+    .footer_left,
+    .footer_content {
+        gap: 15px;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+}
